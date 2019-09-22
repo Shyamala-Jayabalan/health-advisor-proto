@@ -7,4 +7,4 @@ https://github.com/everwatchsolutions/json-data-generator/blob/master/README.md
 java -jar json-data-generator-1.4.0.jar testConfig.json
 
 //DB-Git Integration
-b3e78b70a2d7afc8cd668e97402b095a2fc5bb95
+d5fb7f7b82b5485f8ec87fdb1f4198476f689b46
