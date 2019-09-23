@@ -59,3 +59,97 @@
 2019-09-22 11:50:46,328 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
 2019-09-22 11:50:48,839 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
 2019-09-22 11:50:51,349 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:12,991 INFO n.a.d.j.g.JsonDataGenerator [main] Overriding Simulation Config file from command line to use [ testConfig.json ]
+2019-09-22 21:59:13,001 DEBUG n.a.d.j.g.JsonDataGenerator [main] Creating Simulation Runner using Simulation Config [ testConfig.json ]
+2019-09-22 21:59:13,894 INFO n.a.d.j.g.JsonDataGenerator [main] Adding Azure IoT Hub Logger with properties: {type=iothub, connectionString=HostName=lv-iot-streaming.azure-devices.net;DeviceId=store;SharedAccessKey=8nBv1EH5wlqjYaDTzKGLGougw3IMpEq9EI64vjNUztw=, protocol=HTTPS}
+2019-09-22 21:59:14,794 INFO n.a.d.j.g.SimulationRunner [main] Adding EventGenerator for [ Test,testWorkflow.json ]
+2019-09-22 21:59:14,798 INFO n.a.d.j.g.SimulationRunner [main] Starting Simulation
+2019-09-22 21:59:15,272 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ firstName,net.acesinc.data.json.generator.types.FirstName ]
+2019-09-22 21:59:15,282 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ lastName,net.acesinc.data.json.generator.types.LastName ]
+2019-09-22 21:59:15,287 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ boolean,net.acesinc.data.json.generator.types.BooleanType ]
+2019-09-22 21:59:15,305 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ double,net.acesinc.data.json.generator.types.DoubleType ]
+2019-09-22 21:59:15,312 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ now,net.acesinc.data.json.generator.types.NowType ]
+2019-09-22 21:59:15,314 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ counter,net.acesinc.data.json.generator.types.CounterType ]
+2019-09-22 21:59:15,317 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ long,net.acesinc.data.json.generator.types.LongType ]
+2019-09-22 21:59:15,321 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ uuid,net.acesinc.data.json.generator.types.UuidType ]
+2019-09-22 21:59:15,325 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ randomIncrementLong,net.acesinc.data.json.generator.types.RandomIncrementLongType ]
+2019-09-22 21:59:15,327 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ timestamp,net.acesinc.data.json.generator.types.TimestampType ]
+2019-09-22 21:59:15,335 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ integer,net.acesinc.data.json.generator.types.IntegerType ]
+2019-09-22 21:59:15,339 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ nowTimestamp,net.acesinc.data.json.generator.types.NowTimestampType ]
+2019-09-22 21:59:15,340 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ date,net.acesinc.data.json.generator.types.DateType ]
+2019-09-22 21:59:15,342 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alphaNumeric,net.acesinc.data.json.generator.types.AlphaNumericType ]
+2019-09-22 21:59:15,345 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ random,net.acesinc.data.json.generator.types.RandomType ]
+2019-09-22 21:59:15,347 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ alpha,net.acesinc.data.json.generator.types.AlphaType ]
+2019-09-22 21:59:15,366 DEBUG n.a.d.j.g.t.TypeHandlerFactory [Thread-1] Discovered TypeHandler [ stringMerge,net.acesinc.data.json.generator.types.StringMergeType ]
+2019-09-22 21:59:16,012 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:18,054 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 0.0 events/sec
+2019-09-22 21:59:20,589 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:23,171 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:25,743 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:28,326 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:30,865 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:33,404 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:35,964 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:38,481 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:40,999 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:43,525 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:46,103 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:48,639 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:51,186 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:53,705 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:56,249 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 21:59:58,770 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:01,330 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:03,854 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:06,386 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:08,914 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:11,444 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:13,992 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:16,508 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:19,037 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:21,591 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:24,106 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:26,629 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:29,146 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:31,674 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:34,198 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:36,722 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:39,305 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:41,837 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:44,403 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:46,987 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:49,504 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:52,022 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:54,538 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:57,081 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:00:59,632 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:02,196 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:04,712 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:07,264 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:09,802 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:12,324 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:14,841 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:17,375 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:19,907 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:22,428 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:24,945 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:27,465 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:30,011 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:32,526 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:35,053 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:37,588 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:40,127 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:42,655 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:45,165 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:47,677 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:50,188 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:52,701 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:55,217 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:01:57,749 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:02:00,282 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:02:02,805 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:02:05,319 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:02:07,858 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:02:10,373 TRACE n.a.d.j.g.EventGenerator [Thread-1] Generator( Test ) generated 1.0 events/sec
+2019-09-22 22:02:12,277 INFO n.a.d.j.g.JsonDataGenerator [Thread-2] Shutdown Hook Invoked.  Shutting Down Loggers
+2019-09-22 22:02:12,292 INFO n.a.d.j.g.SimulationRunner [Thread-2] Stopping Simulation
