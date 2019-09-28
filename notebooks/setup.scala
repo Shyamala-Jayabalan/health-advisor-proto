@@ -1,14 +1,15 @@
 // Databricks notebook source
 //Lib if needed
-
+import org.apache.spark.sql.types.{StructType, StructField, LongType, StringType, IntegerType, TimestampType}
+import org.apache.spark.sql.functions._
 
 // COMMAND ----------
 
 //Global Settings
 
 val path = "wasbs://lv-health-adv-store@lvhealthadvstrg.blob.core.windows.net/"
-val storageAccount = "lvhealthadvstrg"
-val storageKey = "zsC8KArE/0TY5cJmPJ9xCxfY96SnS3or2rxJ4IVFJL0ajXz1dG6uZusIEJaZ8YDJt9goxuB4KBNvP0qQmskciw=="
+val storageAccount = "lvhealthadvstrg" //TODO: Security
+val storageKey = dbutils.secrets.get(scope = "health-adv-scope", key = "strg-key")//dbutils.secrets.listScopes
 
 // COMMAND ----------
 
@@ -17,6 +18,3 @@ val storageKey = "zsC8KArE/0TY5cJmPJ9xCxfY96SnS3or2rxJ4IVFJL0ajXz1dG6uZusIEJaZ8Y
 spark.conf.set(
   "fs.azure.account.key." + storageAccount + ".blob.core.windows.net",
   storageKey)
-
-// COMMAND ----------
-
