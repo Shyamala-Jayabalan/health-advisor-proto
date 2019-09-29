@@ -1,7 +1,7 @@
 {
     "workflows": [{
             "workflowName": "Test",
-            "workflowFilename": "testWorkflow.json"
+            "workflowFilename": "storeGenerator.json"
         }],
     "producers": [{
         "type": "iothub",
